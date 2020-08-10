@@ -1,0 +1,117 @@
+.menu--grid {
+    display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.contenido--grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.newsletter--grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer--grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.listad-noticias--grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+@include respond(sm) {
+    .menu--grid {
+        display: grid;
+    grid-template-columns: 2fr 1fr;
+    }
+
+    .contenido--grid {
+        display: grid;
+        grid-template-columns: 3fr;
+    }
+
+    .newsletter--grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer--grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  
+    .listad-noticias--grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@include respond(md) {
+    .menu--grid {
+        display: grid;
+    grid-template-columns: 2fr 1fr;
+    }
+
+    .contenido--grid {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .newsletter--grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer--grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  
+    .listad-noticias--grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .listado-izquierdo--grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+    @include respond(lg) {
+        .menu--grid {
+            display: grid;
+        grid-template-columns: 2fr 1fr;
+        }
+    
+        .contenido--grid {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+        }
+    
+        .newsletter--grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    
+        .footer--grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+      
+        .listad-noticias--grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    
+        .listado-izquierdo--grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }

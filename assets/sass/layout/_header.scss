@@ -1,0 +1,39 @@
+.contenido {
+    margin: 20px 10%;
+}
+
+.listad-noticias {
+    float: left;
+}
+
+.noticia {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.cuerpo img {
+    width: 100%;
+}
+
+@include respond(max-md) {
+    .cuerpo img {
+        width: 100%;
+        height: 300px;
+    }
+    
+}
+
+
+.cuerpo p {
+    padding: 10px 0px;;
+}
+
+.cabecera {
+    padding: 15px 0px;
+}
+
+.item h4 {
+    padding: 20px 0px;
+}
